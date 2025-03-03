@@ -6,4 +6,5 @@
 
 ## Using OSC OnDemand
 
-
+1. Go to the OSC home page and select "Access OSC" on the top right. From there, select "System Gateway" Enter your credentials on the screen that follows.
+2. You should now be on the OnDemand home page. You can access documentation on how to use OnDemand and other OSC resources by selecting "Help" and then "Online Documentation" on the top right.
