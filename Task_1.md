@@ -8,3 +8,4 @@
 
 1. Go to the OSC home page and select "Access OSC" on the top right. From there, select "System Gateway" Enter your credentials on the screen that follows.
 2. You should now be on the OnDemand home page. You can access documentation on how to use OnDemand and other OSC resources by selecting "Help" and then "Online Documentation" on the top right.
+3. Now click on the "Files" tab on the top left. Select the "Home Directory" option. This should bring you to a page that looks like the interface for navigating a file system that you might have on your personal computer. At the top of the page you can see your current directory path highlighted in grey.
