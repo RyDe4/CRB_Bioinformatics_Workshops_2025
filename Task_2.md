@@ -8,3 +8,10 @@
 6. You can download the ensembl v113 human GTF file using wget https://ftp.ensembl.org/pub/release-113/gtf/homo_sapiens/Homo_sapiens.GRCh38.113.chr.gtf.gz.
 7. Use the ls command to list files in your current working directory.
 8. The ".gz" extension means the file is compressed in gzip format, so it can't be viewed without uncompressing the file. We can do this with the gunzip command.
+
+## View the GTF file and obtain 
+
+1. To view the file, there are a few different options. The cat command can be used to print the whole file to the terminal, but for large files such as this GTF this isn't as useful. To view the first lines of the file we can use the head, and the tail command can be used to view the last few lines. We can also use the less command to open a scrollable view of the file.
+2. We can use the wc command to get information about the the number of words in the file, as well as the number of characters and the number of lines. Use wc with the -l option to count the number of lines in the GTF file.
+3. We can search for a certain 
+
