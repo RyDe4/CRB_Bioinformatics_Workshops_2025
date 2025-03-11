@@ -44,4 +44,4 @@
 `cut -f 3 <file name>` Will print the 3rd column of the specified file, assuming that columns in the specified file are separated by tabs.  
 `cut -f 3 -d ',' <file name>` Will print the 3rd column of the specified file, assuming that columns in the specified file are separated by commas.  
 `awk '$3=="exon" <file name>` Will print every line where the 3rd column is equal to "exon".  
-`sed s/gene/transcript/g <file name>` Prints the specified file but with the word "gene" replaced with "transcript". 
+`sed 's/gene/transcript/g' <file name>` Prints the specified file but with the word "gene" replaced with "transcript". 
