@@ -21,3 +21,14 @@
 `mv <file path/name 1> <file path/name 2>` Moves the file specified by the first argument to the location specified by the second argument. Can also be used to rename files.  
 `mv -n <file path/name 1> <file path/name 2>` Moves the file specified by the first argument to the location specified by the second argument, only if there is not already a file with the same name at that location (prevents overwriting files).  
 `cp <file path/name 1> <file path/name 2>` Copy the file specified by the first argument to the location specified by the second argument.
+
+## File Inspection and Metrics
+
+`wc <file name>` Prints the number of newlines, words, and bytes for the specified file.  
+`wc -l <file name>` Prints the number of newlines for the specified file.
+`grep "word" <file name>` Searches for the specified string/word in the specified file. Only lines containing the search string are output, with the matching portion of the line highlighted in red.  
+`grep -P "pattern" <file name>` Searches for the specified regex pattern in the specified file using the Perl regex engine. Only lines containing a match are output, with the matching portion of the line highlighted in red.  
+`grep -P -o "pattern" <file name>` Searches for the specified regex pattern in the specified file using the Perl regex engine. The `-o` option causes only the matching portions of each line to be output.
+
+
+
