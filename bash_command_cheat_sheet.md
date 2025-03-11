@@ -19,4 +19,5 @@
 
 `mkdir <directory name>` Create a directory with the specified name or path.  
 `mv <file path/name 1> <file path/name 2>` Moves the file specified by the first argument to the location specified by the second argument. Can also be used to rename files.  
-`mv -n <file path/name 1> <file path/name 2>` Moves the file specified by the first argument to the location specified by the second argument, only if there is not already a file with the same name at that location (prevents overwriting files).
+`mv -n <file path/name 1> <file path/name 2>` Moves the file specified by the first argument to the location specified by the second argument, only if there is not already a file with the same name at that location (prevents overwriting files).  
+`cp <file path/name 1> <file path/name 2>` Copy the file specified by the first argument to the location specified by the second argument.
