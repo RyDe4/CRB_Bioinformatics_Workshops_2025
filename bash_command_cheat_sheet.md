@@ -39,4 +39,9 @@
 `grep -P "pattern" <file name>` Searches for the specified regex pattern in the specified file using the Perl regex engine. Only lines containing a match are output, with the matching portion of the line highlighted in red.  
 `grep -P -o "pattern" <file name>` Searches for the specified regex pattern in the specified file using the Perl regex engine. The `-o` option causes only the matching portions of each line to be output.
 
+## File Maniputation
 
+`cut -f 3 <file name>` Will print the 3rd column of the specified file, assuming that columns in the specified file are separated by tabs.  
+`cut -f 3 -d ',' <file name>` Will print the 3rd column of the specified file, assuming that columns in the specified file are separated by commas.  
+`awk '$3=="exon" <file name>` Will print every line where the 3rd column is equal to "exon".  
+`sed s/gene/transcript/g <file name>` Prints the specified file but with the word "gene" replaced with "transcript". 
