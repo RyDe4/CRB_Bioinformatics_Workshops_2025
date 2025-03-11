@@ -30,5 +30,11 @@
 `grep -P "pattern" <file name>` Searches for the specified regex pattern in the specified file using the Perl regex engine. Only lines containing a match are output, with the matching portion of the line highlighted in red.  
 `grep -P -o "pattern" <file name>` Searches for the specified regex pattern in the specified file using the Perl regex engine. The `-o` option causes only the matching portions of each line to be output.
 
+## File Compression and Integrity
 
-
+`gzip <file name>` Compresses the specified file into gzip format.  
+`gunzip <file name>` Decompress the specified gzipped file.  
+`zcat <file name>` View a gzipped compressed file without decompressing it.  
+`md5sum <file name>` Generate an md5sum for the specified file.  
+`md5sum -c <md5sum files>` Read in a file containing md5sums and the file each sum is associated with, and verify that each file has the expected md5sum on your current system.  
+`sum <file name` Calculate a checksum for the specified file. Similar to md5sum, but uses a different algorithm.
