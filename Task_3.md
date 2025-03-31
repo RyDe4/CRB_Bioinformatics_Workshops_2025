@@ -7,4 +7,4 @@ OSC has many popular bioinformatics tools pre-installed which are accessible thr
 
 ## Using fastqc
 
-- Load fastqc using the command `<>`
+-Load fastqc using the command `module load fastqc/0.12.1`, or a different version depending on what cluster you are on. It is important to take note of the version of software you are using since journals require you to put this information in the methods section when you publish.
