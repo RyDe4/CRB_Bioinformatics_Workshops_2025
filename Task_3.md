@@ -5,6 +5,17 @@ OSC has many popular bioinformatics tools pre-installed which are accessible thr
 -To search for specific software packages, you can use the `module spider <software name>`. The `module spider` command can also be used to find out more specific steps that may be needed to load certain software tools.  
 -To load a software tool, you can use the `module load <software name/version>` to load a specific version of a software tool.
 
+## The fastq File Format
+
+Fastq files are used to store sequencing reads produced by next generation sequencing technologies. They contain 4 lines for each read:
+-The read name, and possibly other information describing the read.
+-The sequence of the read itself. This line contains characters representing the DNA nucleotides of the read, or N if the sequencer could not confidently identify a base.
+-A line with a + to separate the read from its quality string.
+-The quality string for the read. This string encodes the confidence that the sequencer has that it has accurately identified the base at each position in a read. Bases below a certain quality threshold are assigned an N.
+
 ## Using fastqc
 
+fastqc is a popular tool for performing quality control of sequencing reads. It can decode the quality strings for reads into more human readable form and summarize them across many reads so that we can get a better idea of the accuracy of the base calls in our sequencing run. It can also identify contaminating sequences found in the fastq file, as well generate other more situational QC plots.  
+
+To run fastqc:
 -Load fastqc using the command `module load fastqc/0.12.1`, or a different version depending on what cluster you are on. It is important to take note of the version of software you are using since journals require you to put this information in the methods section when you publish.
