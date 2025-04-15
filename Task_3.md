@@ -28,4 +28,4 @@ To run fastqc:
 For RNA-seq, the most important plots are usually the "Per base sequence quality", "Overrepresented sequences", and "Adapter Content" plots. You don't need to worry about which plots have a checkmark or X, since fastqc was originally designed for whole genome sequencing data and pass/fail thresholds were chosen based on this type of analysis.  
 
 Sequence quality and phred scores:  
--
+The per-base sequence quality plot shows the distribution of phred scores at each base. The phred score (Q) is calculated using the following formula: Q=-10log(P), where P is the probability of a base calling error. This means that a phred score of 10 indicates 90% confidence in a base call, a score of 20 indicates 99% confidence, a score of 30 indicates 99.9% confidence, and so on.
