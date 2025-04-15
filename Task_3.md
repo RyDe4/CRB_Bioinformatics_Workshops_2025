@@ -7,10 +7,10 @@ OSC has many popular bioinformatics tools pre-installed which are accessible thr
 
 ## The fastq File Format
 
-Fastq files are used to store sequencing reads produced by next generation sequencing technologies. They contain 4 lines for each read:
--The read name, and possibly other information describing the read.
--The sequence of the read itself. This line contains characters representing the DNA nucleotides of the read, or N if the sequencer could not confidently identify a base.
--A line with a + to separate the read from its quality string.
+Fastq files are used to store sequencing reads produced by next generation sequencing technologies. They contain 4 lines for each read:  
+-The read name, and possibly other information describing the read.  
+-The sequence of the read itself. This line contains characters representing the DNA nucleotides of the read, or N if the sequencer could not confidently identify a base.  
+-A line with a + to separate the read from its quality string.  
 -The quality string for the read. This string encodes the confidence that the sequencer has that it has accurately identified the base at each position in a read. Bases below a certain quality threshold are assigned an N.
 
 ## Using fastqc
