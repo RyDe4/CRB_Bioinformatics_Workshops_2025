@@ -17,5 +17,5 @@ Fastq files are used to store sequencing reads produced by next generation seque
 
 fastqc is a popular tool for performing quality control of sequencing reads. It can decode the quality strings for reads into more human readable form and summarize them across many reads so that we can get a better idea of the accuracy of the base calls in our sequencing run. It can also identify contaminating sequences found in the fastq file, as well generate other more situational QC plots.  
 
-To run fastqc:
+To run fastqc:  
 -Load fastqc using the command `module load fastqc/0.12.1`, or a different version depending on what cluster you are on. It is important to take note of the version of software you are using since journals require you to put this information in the methods section when you publish.
